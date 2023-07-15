@@ -1,0 +1,9 @@
+x=[10,20,30,40,50,]
+y=[60,70,80,90,100]
+x.extend(y)
+print(id(x))
+print(type(x))
+print(id(y))
+print(type(y))
+print(y);
+print(x)
